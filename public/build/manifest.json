@@ -1,11 +1,106 @@
 {
+  "_AppLayout-8I0e0NEw.js": {
+    "file": "assets/AppLayout-8I0e0NEw.js",
+    "name": "AppLayout",
+    "imports": [
+      "resources/js/app.js",
+      "_UserIcon-CBPkKzUJ.js"
+    ]
+  },
+  "_LockClosedIcon-C9fP0BYs.js": {
+    "file": "assets/LockClosedIcon-C9fP0BYs.js",
+    "name": "LockClosedIcon",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_UserIcon-CBPkKzUJ.js": {
+    "file": "assets/UserIcon-CBPkKzUJ.js",
+    "name": "UserIcon",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/Pages/App/Account.vue": {
+    "file": "assets/Account-0xZZ7awf.js",
+    "name": "Account",
+    "src": "resources/js/Pages/App/Account.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AppLayout-8I0e0NEw.js",
+      "_UserIcon-CBPkKzUJ.js"
+    ]
+  },
+  "resources/js/Pages/App/Account/Password/Index.vue": {
+    "file": "assets/Index-DOaYBo74.js",
+    "name": "Index",
+    "src": "resources/js/Pages/App/Account/Password/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AppLayout-8I0e0NEw.js",
+      "_UserIcon-CBPkKzUJ.js"
+    ]
+  },
+  "resources/js/Pages/App/Account/Profile/Index.vue": {
+    "file": "assets/Index-D_FI7mNR.js",
+    "name": "Index",
+    "src": "resources/js/Pages/App/Account/Profile/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_AppLayout-8I0e0NEw.js",
+      "_UserIcon-CBPkKzUJ.js"
+    ]
+  },
+  "resources/js/Pages/App/Home.vue": {
+    "file": "assets/Home-Bo3fzmSK.js",
+    "name": "Home",
+    "src": "resources/js/Pages/App/Home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_AppLayout-8I0e0NEw.js",
+      "resources/js/app.js",
+      "_UserIcon-CBPkKzUJ.js"
+    ]
+  },
+  "resources/js/Pages/Auth/Login.vue": {
+    "file": "assets/Login-BPx9lBfn.js",
+    "name": "Login",
+    "src": "resources/js/Pages/Auth/Login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_LockClosedIcon-C9fP0BYs.js"
+    ]
+  },
+  "resources/js/Pages/Auth/Register.vue": {
+    "file": "assets/Register-BPrj3fiY.js",
+    "name": "Register",
+    "src": "resources/js/Pages/Auth/Register.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_UserIcon-CBPkKzUJ.js",
+      "_LockClosedIcon-C9fP0BYs.js"
+    ]
+  },
   "resources/js/app.js": {
-    "file": "assets/app--WlvpdWQ.js",
+    "file": "assets/app-DwT7fszb.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/App/Account.vue",
+      "resources/js/Pages/App/Account/Password/Index.vue",
+      "resources/js/Pages/App/Account/Profile/Index.vue",
+      "resources/js/Pages/App/Home.vue",
+      "resources/js/Pages/Auth/Login.vue",
+      "resources/js/Pages/Auth/Register.vue"
+    ],
     "css": [
-      "assets/app-BA63GUiB.css"
+      "assets/app-C2RojJpa.css"
     ]
   }
 }
